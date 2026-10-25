@@ -6,16 +6,16 @@
 
 ## 📌 Table of Contents
 
-- [Part 1: What is Matryoshka Representation Learning?](#-part-1-what-is-matryoshka-representation-learning)
-- [Part 2: How It Works Under the Hood](#-part-2-how-it-works-under-the-hood)
-- [Part 3: Key Benefits & Practical Uses](#-part-3-key-benefits--practical-uses)
-- [Part 4: Quick Implementation Example (Hugging Face)](#-part-4-quick-implementation-example-hugging-face)
-- [Part 5: Why MRL Enhances Security & Privacy in RAG](#-part-5-why-mrl-enhances-security--privacy-in-rag)
-- [Part 6: References](#-part-6-references)
+- [Part 1: What is Matryoshka Representation Learning?](#part-1)
+- [Part 2: How It Works Under the Hood](#part-2)
+- [Part 3: Key Benefits & Practical Uses](#part-3)
+- [Part 4: Quick Implementation Example (Hugging Face)](#part-4)
+- [Part 5: Why MRL Enhances Security & Privacy in RAG](#part-5)
+- [Part 6: References](#part-6)
 
 ---
 
-<details open>
+<details id="part-1" open>
 <summary><b>📖 Part 1: What is Matryoshka Representation Learning?</b></summary>
 
 <br>
@@ -35,7 +35,7 @@ Imagine a traditional **Russian nesting doll (Matryoshka)**: each doll fits insi
 
 ---
 
-<details>
+<details id="part-2">
 <summary><b>⚙️ Part 2: How It Works Under the Hood</b></summary>
 
 <br>
@@ -70,7 +70,7 @@ The diagram below illustrates how multiple loss terms are computed across trunca
 
 ---
 
-<details>
+<details id="part-3">
 <summary><b>🚀 Part 3: Key Benefits & Practical Uses</b></summary>
 
 <br>
@@ -105,7 +105,7 @@ Instead of searching millions of full-size vectors:
 
 ---
 
-<details>
+<details id="part-4">
 <summary><b>💻 Part 4: Quick Implementation Example (Hugging Face)</b></summary>
 
 <br>
@@ -141,7 +141,7 @@ print("Truncated shape:", normalized_truncated.shape)  # torch.Size([2, 128])
 
 ---
 
-<details>
+<details id="part-5">
 <summary><b>🛡️ Part 5: Why MRL Enhances Security & Privacy in RAG</b></summary>
 
 <br>
@@ -166,7 +166,7 @@ Here is how Matryoshka embeddings directly strengthen the security posture of RA
 
 ---
 
-<details>
+<details id="part-6">
 <summary><b>📚 Part 6: References</b></summary>
 
 <br>
